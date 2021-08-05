@@ -25,3 +25,18 @@ Counter02 >> count: aNumber [
 	count := aNumber.
 	^ self
 ]
+
+{ #category : #API }
+Counter02 >> decrement [
+	count := count - 1
+]
+
+{ #category : #accessing }
+Counter02 >> increment [
+	count := count + 1
+]
+
+{ #category : #initialization }
+Counter02 >> initialize [
+	count := 0
+]
